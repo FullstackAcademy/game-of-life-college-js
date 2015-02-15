@@ -23,16 +23,12 @@ var gameOfLife = {
   },
 
   forEachCell: function (func) {
-    var myid;
-    for(var y = 0; y< this.height; y++) {
-      for(var x = 0; x< this.width; x++) {
-        myid = x+'-'+y;
-        cell = document.getElementById(myid);
-        if (cell) {
-          func(cell, x, y);
-        }
-      }
-    }
+    /* 
+      COLLEGE.JS: Write forEachCell here. You will have to visit
+                  each cell on the board, call the "func" function,
+                  and pass into func, the cell and the cell's x & y
+                  coordinates. for example: func(cell, x, y)
+    */
   },
 
   toggleCell: function(cell) {
