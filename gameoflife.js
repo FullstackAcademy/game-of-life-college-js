@@ -22,12 +22,12 @@ var gameOfLife = {
     this.setupBoardEvents();
   },
 
-  forEachCell: function (func) {
+  forEachCell: function (iteratorFunc) {
     /* 
       COLLEGE.JS: Write forEachCell here. You will have to visit
-                  each cell on the board, call the "func" function,
+                  each cell on the board, call the "iteratorFunc" function,
                   and pass into func, the cell and the cell's x & y
-                  coordinates. for example: func(cell, x, y)
+                  coordinates. For example: iteratorFunc(cell, x, y)
     */
   },
 
